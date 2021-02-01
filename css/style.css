@@ -1,0 +1,16 @@
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
