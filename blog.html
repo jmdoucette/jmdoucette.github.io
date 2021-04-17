@@ -23,8 +23,22 @@
     </ul>
   </nav>
   <div class = "container">
-  
+  <h1>Random Selection Games</h1>
+  <p>
+    While camping over the summer, me and two friends came across a situation where needed to each carry one of  distinct, differently sized objects. To settle this fairly we decided to first play a three player round of rock paper scissors and then a regular round. A major problem we came across was the high chance of ties.
+  </p>
+  <p>
+    This properties of the potential for ties is certainly a drawback. I remembered from a game theory class a game called matcher avoider. One player is chosen to be the matcher and the other player is chosen to be the avoider. Each Player holds up either 0 or 1 fingers behind their back. The matcher wins if the both players choose the same number of fingers and the avoider wins if the players choose different numbers of fingers. 
+  </p>
+  <p>
+    We thought a bit more about this a realized the matcher avoider game could be seen as a special case of a more general game of this type for players. Have all players secretly pick a number between 0 and n-1 (on their fingers if the number of players is small enough). Add up the numbers chosen by all players modulo n. A quick check can show that all players have an equal chance of winning and that no option is better than the others.
+  </p>
+  <p>
+    One property of this game that I didn’t love was the fact that it is not uniform. The players are enumerated before the game begins and the result depends on this enumeration. While we had shown that a players number does not impact their chance of success, a skeptical player may believe they are being tricked. Unfortunately a quick counterexample shows that uniformity and the impossibility of a tie are mutually exclusive. If all players choose the same option, uniformity means the same thing must happen to them all. 
+  </p>
 	</div>
+
+
 
 
 
